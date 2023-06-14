@@ -1,0 +1,53 @@
+{
+    "analog_input":{
+        "1":{
+            "ref_currents":[400, 1000, 1500, 2000],
+            "ref_voltages":[0, 3751, 6877, 10000],
+            "tolerance_current": [50, 50, 50, 50],  
+            "tolerance_voltage": [50, 50, 50, 50]  
+        },
+        "2":{
+            "ref_currents":[400, 1000, 1500, 2000],
+            "ref_voltages":[0, 3751, 6877, 10000],
+            "tolerance_current": [50, 50, 50, 50],  
+            "tolerance_voltage": [50, 50, 50, 50]  
+        }
+    },
+    
+    "triac_1_read_delay": 3000,
+    "triac_2_read_delay": 3000,
+    "triac_1_ref":{
+        "5": { "val": 427 },
+        "6": { "val": 435 },
+        "18": { "val": 524 },
+        "50": { "val": 669 },
+        "75": { "val": 782 },
+        "100": { "val": 792 }
+      },
+    "triac_2_ref":{
+        "5": { "val": 427 },
+        "6": { "val": 435 },
+        "18": { "val": 524 },
+        "50": { "val": 669 },
+        "75": { "val": 782 },
+        "100": { "val": 792 }
+      },
+      "triac_1_tolerance":{
+        "5": { "val": 50 },
+        "6": { "val": 50 },
+        "18": { "val": 50 },
+        "50": { "val": 50 },
+        "75": { "val": 50 },
+        "100": { "val": 50 }
+      },
+      "triac_2_tolerance":{
+        "5": { "val": 50 },
+        "6": { "val": 50 },
+        "18": { "val": 50 },
+        "50": { "val": 50 },
+        "75": { "val": 50 },
+        "100": { "val": 50 }
+      },
+      "line_freq_tolerance":0.02,
+      "thermocouple_reading_time": 10000
+}
